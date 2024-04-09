@@ -13,3 +13,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def get_operation():
+    op = input("Operação: ")
+    return op
