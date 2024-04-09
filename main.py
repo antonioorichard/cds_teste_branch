@@ -1,4 +1,9 @@
 import test
+
+def get_operation():
+    op = input("Operação: ")
+    return op
+
 def gether_data():
     n1 = input("Primeiro valor: ")
     n2 = input("Segundo valor : ")
@@ -15,6 +20,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-def get_operation():
-    op = input("Operação: ")
-    return op
